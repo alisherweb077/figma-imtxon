@@ -1,0 +1,667 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* container */
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container .head{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(255, 102, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+}
+
+.container .head .logo{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.container .head .a{
+    width: 40%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+}
+
+.container .head .a a{
+    color: white;
+    text-decoration: none;
+}
+
+.container .head .search{
+    width: 16%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    gap: 15px;
+}
+
+.container .head .search a{
+    color: white;
+    text-decoration: none;
+}
+
+.container .head .search button{
+    padding: 7% 15%;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.744);
+    border-radius: 50px;
+    color: #fff;
+}
+
+.container .head .search button:hover{
+    background: none;
+    color: white;
+    border: 1px solid rgba(255, 0, 0, 0.744);
+}
+
+/* choose */
+.choose{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(23, 159, 23, 0.974);
+    padding: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose .lorem{
+    width: 30%;
+    height: 60vh;
+    font-size: 20px;
+    color: white;
+}
+
+.choose .lorem button{
+    padding: 4% 11%;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 40px;
+}
+
+.choose .lorem button:hover{
+    background: none;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.choose .lorem h1{
+    font-size: 60px;
+}
+
+.choose .images .savat img{
+    width: 550px;
+    height: 650px;
+    position: relative;
+    bottom: 150px;
+}
+
+/* expert */
+.expert{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    padding: 5%;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.expert .image img{
+    width: 450px;
+    height: 450px;
+
+}
+
+.expert .cards{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.expert .cards .card{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.expert .cards .card .icon i{
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+/* why */
+.why{
+    width: 100%;
+    height: 80vh;
+    padding: 5% 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.why .cards-two{
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.why .cards-two .card-two{
+    width: 230px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    border: 1px solid rgb(193, 188, 188);
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.why .cards-two .card-two:hover{
+    background-color: rgb(156, 173, 173);
+    transition: .5s;
+}
+
+.why .cards-two .card-two .icon-two i{
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+}
+
+.why .us{
+    width: 30%;
+    height: 60vh;
+}
+
+.why .us h2{
+    color: green;
+}
+
+.why .us h1{
+    font-size: 45px;
+}
+
+.why .us button{
+    padding: 4% 11%;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+}
+
+.why .us button:hover{
+    background: none;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+/* about */
+.about{
+    width: 100%;
+    height: 80vh;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .cardd{
+    width: 35%;
+    height: 60vh;
+    font-size: 18px;
+}
+
+.about .cardd h3{
+    color: green;
+}
+
+.about .cardd button{
+    padding: 4% 11%;
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.about .cardd button:hover{
+    background: none;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+/* catigor */
+.catigor{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.catigor h3{
+    color: green;
+}
+
+.catigor .cards3{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.catigor .cards3 .card4{
+    width: 250px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgb(185, 177, 177);
+    padding: 15px;
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+}
+
+.catigor .cards3 .card4:hover{
+    background-color: rgb(156, 173, 173);
+    transition: .5s;
+}
+
+.catigor .cards3 .card4 .img img{
+    width: 200px;
+    height: 120px;
+}
+
+.catigor .cards3 .card4 .lorm{
+    display: none;
+    transition: .5s;
+}
+
+.catigor .cards3 .card4:hover .lorm{
+    display: block;
+    transition: .5s;
+}
+
+.catigor .cards3 .card4 a{
+    color: black;
+    text-decoration: none;
+}
+
+/* products */
+.products{
+    width: 100%;
+    height: 80vh;
+}
+
+.products .product{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.products .product p{
+    color: rgb(0, 182, 0);
+    font-size: 25px;
+}
+
+.products .product h1{
+    margin: 30px;
+}
+
+.products .cards{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 150px;
+    gap: 200px;
+    
+}
+
+.products .cards .card{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 10px orange;
+}
+
+.products .cards .card .kalso{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 23, 62);
+    border-radius: 50%;
+    margin: 0 170px;
+    box-shadow: 3px 3px 10px rgb(255, 104, 129),-3px -3px 10px  rgb(255, 104, 129);
+}
+
+.products .cards .card .fresh{
+    width: 40%;
+    height: 20px;
+    margin: 20px 120px;
+}
+
+.products .cards .card .p{
+    width: 60%;
+    height: 30px;
+    margin: 35px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products .cards .card .p i{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.products .cards .card .img1 img{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+}
+
+/* to */
+.to{
+    width: 90%;
+    height: 30vh;
+    background-color: rgb(5, 186, 5);
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+}
+
+.to .btn{
+    display: flex;
+}
+
+.to .btn input {
+    width: 300px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+}
+
+.to .btn button{
+    border: none;
+    background-color: orangered;
+    border: 10px solid #fff;
+    padding: 5px 20px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+/* links */
+.links{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
+}
+
+.links .organio{
+    width: 230px;
+    height: 270px;
+}
+
+.links .organio img{
+    width: 40px;
+    height: 40px;
+}
+
+.links .organio .icons{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.links .organio .icons i{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.links .organio .icons i:hover{
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.links .home{
+    width: 200px;
+    height: 230px;
+}
+
+.links .official{
+    width: 200px;
+    height: 300px;
+}
+
+.links .official .loc{
+    display: flex;
+    gap: 10px;
+}
+
+.links .official .loc .icon i{
+    color: orange;
+}
+
+.links .official h3{
+    color: orange;
+}
+
+/* media */
+@media screen and (max-width:1300px){
+    .choose{
+        height: auto;
+    }
+    .choose .images{
+        display: none;
+    }
+    .choose .lorem{
+        margin: 0 auto;
+        width: 50%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .expert{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .expert .cards{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        padding: 1px 150px;
+    }
+
+    .why{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .why .cards-two{
+        width: 100%;
+        height: auto;
+    }
+    .why .us{
+        margin: 40px auto;
+    }
+    .why .us h1{
+        display: none;
+    }
+
+    .about{
+        height: auto;
+    }
+    .about .imag{
+        display: none;
+    }
+    .about .cardd{
+        text-align: center;
+    }
+    .about .cardd b{
+        display: none;
+    }
+
+    .to{
+        display: none;
+    }  
+}
+
+@media screen and (max-width:1200px){
+    .expert .cards{
+        display: none;
+    }
+
+    .products{
+        height: auto;
+    }
+    .products .cards{
+        justify-content: center;
+        height: auto;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .products .cards .card{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .expert .image{
+        display: none;
+    }
+    .expert .cards{
+        display: block;
+        height: 100%;
+    }
+
+    .why .cards-two{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .about{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .catigor{
+        height: auto;
+    }
+    .catigor .cards3{
+        width: 70%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:900px){
+    .expert .cards .card{
+        font-size: 15px;
+    }
+
+    .why .cards-two{
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px){
+    .choose .lorem{
+        font-size: 10px;
+    }
+    .choose .lorem h1{
+        font-size: 40px;
+    }
+    .container .head{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    .links .inta{
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px){
+    .why{
+        display: none;
+    }
+
+    .links .official{
+        display: none;
+    }
+
+    .expert{
+        display: none;
+    }
+}
+
+@media screen and (max-width:300px){
+    .choose h1{
+        font-size: 10px;
+    }
+    
+    .links{
+        gap: 20px;
+    }
+}
